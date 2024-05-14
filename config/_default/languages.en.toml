@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Charles Vosloo"
+title = "Journeyman"
 
 [params]
   displayName = "EN"
@@ -16,7 +16,7 @@ title = "Charles Vosloo"
  [author]
    name = "Charles Vosloo"
    image = "profile.png"
-   headline = "I'm only human"
+   headline = "The moon is a balloon"
    bio = "A little bit about you"
    links = [
      { email = "mailto:voslooc@gmail.com" },
