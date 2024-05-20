@@ -20,6 +20,13 @@
    url = "https://journeyman33.github.io/k8s-resume-blog/"
    # weight =2
 
+[[ main]]
+   name = "Kodekloud Engineer"
+   pageRef = "kodekloud"
+   weight =40
+
+
+
 [[main]]
   name = "Posts"
   pageRef = "posts"
