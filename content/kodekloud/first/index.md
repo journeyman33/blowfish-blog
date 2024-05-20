@@ -35,7 +35,7 @@ With all the automation features (staying with just vanilla Kubernetes) that hav
 
 #### <span style="color:green;"> (2) persistent volume, persistent volume claim, config map, secret, endpoint, service account, role, cluster role, cluster role binding and pod security policy </span>
 
-{{< rawhtml >}}
+<!-- {{< rawhtml >}}   ### -->
 <div style="display: flex; 40px;">
 {{< figure src="k8s-resources-40/pv-128.png" alt="pv" >}}
 {{< figure src="k8s-resources-40/pvc-128.png" alt="pvc" >}}
@@ -48,7 +48,7 @@ With all the automation features (staying with just vanilla Kubernetes) that hav
 {{< figure src="k8s-resources-40/crb-128.png" alt="crb" >}}
 {{< figure src="k8s-resources-40/psp-128.png" alt="psp" >}}
 </div>
-{{< /rawhtml >}}
+<!-- {{< /rawhtml >}} -->
 
 
  
