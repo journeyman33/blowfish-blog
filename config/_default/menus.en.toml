@@ -17,7 +17,7 @@
 
 [[ main]]
    name = "K8s Cloud Resume Challenge"
-   url = "https/tunnel.bigtorig.com"
+   url = "https://journeyman33.github.io/k8s-resume-blog/"
    # weight =2
 
 [[main]]
