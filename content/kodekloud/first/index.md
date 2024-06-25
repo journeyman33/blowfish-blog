@@ -2,10 +2,6 @@
 title: How to Deploy Applications to Kubernetes
 date: 2024-01-14
 draft: false
-resources:
-  - src: "/assets/img/k8s-resources/*"
-    name: "k8s-resources"
-    title: "k8s-resources"
 weight: 5
 ---
 
@@ -29,23 +25,24 @@ Kubernetes simplifies the running of containerized application by automating man
 With all the automation features (staying with just vanilla Kubernetes) that have made things easy comes complexity. That’s because the underlying is complex. However, once again, the new goal, it seems,  is to abstract away this complexity and try and make things ‘simpler’. It is possible, with one CRD wrapper layer (from acorn.io) to create and deploy an application to Kubernetes without having to know the Kubernetes resources (objects), shown below. Yet it’s probably worth knowing, especially if you want to appreciate what ever layer that does get put on top of the <span style="color: green">**underlying kubernetes resources :**</span> 
 #### <span style="color:green;"> (1) namespace, deployment, pod, replicaset ,service, ingress, horizontal autoscaler, network policy, limits, quotas 
 
-![k8s Exposed Pod](images/k8s-diagram.png)
+![Kubernetes Diagram](/img/image/k8s-diagram.png)
 
 #### <span style="color:green;"> (2) persistent volume, persistent volume claim, config map, secret, endpoint, service account, role, cluster role, cluster role binding and pod security policy </span>
 
+{{< rawhtml >}}
 <div style="display: flex; 40px;">
-{{< figure src="k8s-resources-40/pv-128.png" alt="pv" >}}
-{{< figure src="k8s-resources-40/pvc-128.png" alt="pvc" >}}
-{{< figure src="k8s-resources-40/cm-128.png" alt="cm" >}}
-{{< figure src="k8s-resources-40/secret-128.png" alt="secret" >}}
-{{< figure src="k8s-resources-40/ep-128.png" alt="ep" >}}
-{{< figure src="k8s-resources-40/sa-128.png" alt="sa" >}}
-{{< figure src="k8s-resources-40/role-128.png" alt="role" >}}
-{{< figure src="k8s-resources-40/c-role-128.png" alt="c-role" >}}
-{{< figure src="k8s-resources-40/crb-128.png" alt="crb" >}}
-{{< figure src="k8s-resources-40/psp-128.png" alt="psp" >}}
+{{< figure src="/img/k8s-resources/pv-128.png" alt="pv" >}}
+{{< figure src="/img/k8s-resources/pvc-128.png" alt="pvc" >}}
+{{< figure src="/img/k8s-resources/cm-128.png" alt="cm" >}}
+{{< figure src="/img/k8s-resources/secret-128.png" alt="secret" >}}
+{{< figure src="/img/k8s-resources/ep-128.png" alt="ep" >}}
+{{< figure src="/img/k8s-resources/sa-128.png" alt="sa" >}}
+{{< figure src="/img/k8s-resources/role-128.png" alt="role" >}}
+{{< figure src="/img/k8s-resources/c-role-128.png" alt="c-role" >}}
+{{< figure src="/img/k8s-resources/crb-128.png" alt="crb" >}}
+{{< figure src="/img/k8s-resources/psp-128.png" alt="psp" >}}
 </div>
-
+{{< /rawhtml >}}
 
  
 There are many ways to deploy applications to Kubernetes.  What is the optimal way? In the following posts I am going to explore the following methods:
