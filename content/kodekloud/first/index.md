@@ -22,12 +22,14 @@ Kubernetes simplifies the running of containerized application by automating man
 
 
 
-With all the automation features (staying with just vanilla Kubernetes) that have made things easy comes complexity. That’s because the underlying is complex. However, once again, the new goal, it seems,  is to abstract away this complexity and try and make things ‘simpler’. It is possible, with one CRD wrapper layer (from acorn.io) to create and deploy an application to Kubernetes without having to know the Kubernetes resources (objects), shown below. Yet it’s probably worth knowing, especially if you want to appreciate what ever layer that does get put on top of the <span style="color: green">**underlying kubernetes resources :**</span> 
-#### <span style="color:green;"> (1) namespace, deployment, pod, replicaset ,service, ingress, horizontal autoscaler, network policy, limits, quotas 
+With all the automation features (staying with just vanilla Kubernetes) that have made things easy comes complexity. That’s because the underlying is complex. However, once again, the new goal, it seems,  is to abstract away this complexity and try and make things ‘simpler’. It is possible, with one CRD wrapper layer (from acorn.io) to create and deploy an application to Kubernetes without having to know the Kubernetes resources (objects), shown below. Yet it’s probably worth knowing, especially if you want to appreciate what ever layer that does get put on top of the <span style="color: green"
+
+**underlying kubernetes resources: 
+#### (1) namespace, deployment, pod, replicaset ,service, ingress, horizontal autoscaler, network policy, limits, quotas 
 
 ![Kubernetes Diagram](/img/image/k8s-diagram.png)
 
-#### <span style="color:green;"> (2) persistent volume, persistent volume claim, config map, secret, endpoint, service account, role, cluster role, cluster role binding and pod security policy </span>
+#### (2) persistent volume, persistent volume claim, config map, secret, endpoint, service account, role, cluster role, cluster role binding and pod security policy 
 
 {{< rawhtml >}}
 <div style="display: flex; 40px;">
