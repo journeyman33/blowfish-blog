@@ -1,0 +1,6 @@
+<!-- img.html -->
+{{ $path := .Get 0 }}
+{{ $size := .Get 1 }}
+{{ $alt := .Get 2 }}
+
+<img src="{{ $path | relURL }}" alt="{{ $alt }}" style="width: {{ $size }}%"/>
