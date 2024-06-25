@@ -19,6 +19,12 @@
    name = "K8s Cloud Resume Challenge"
    url = "https://journeyman33.github.io/k8s-resume-blog/"
    # weight =2
+ 
+[[main]]
+   name = "What is k8s Resume Challenge?"
+   parent = "K8s Cloud Resume Challenge"
+   pagRef = "posts/one"   
+
 
 [[ main]]
    name = "Kodekloud Engineer"
