@@ -35,7 +35,9 @@ This is enabled by a unified API which includes the Controller Manager, Schedule
 
 
 
-With all the automation features (staying with just vanilla Kubernetes) that have made things easy comes complexity. That’s because the underlying is complex. However, once again, the new goal, it seems,  is to abstract away this complexity and try and make things ‘simpler’. It is possible, with one CRD wrapper layer (from acorn.io) to create and deploy an application to Kubernetes without having to know the Kubernetes resources (objects), shown below. Yet it’s probably worth knowing, especially if you want to appreciate what ever layer that does get put on top of the <span style="color: green"
+With all the automation features that have made things easy comes complexity.
+
+That’s because the underlying is complex. However, once again, the new goal, it seems,  is to abstract away this complexity and try and make things ‘simpler’. It is possible, with one CRD wrapper layer (from acorn.io) to create and deploy an application to Kubernetes without having to know the Kubernetes resources (objects), shown below. Yet it’s probably worth knowing, especially if you want to appreciate what ever layer that does get put on top of the <span style="color: green"
 
 **underlying kubernetes resources: 
 **(1) namespace, deployment, pod, replicaset ,service, ingress, horizontal autoscaler, network policy, limits, quotas 
