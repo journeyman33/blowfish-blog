@@ -6,7 +6,16 @@ weight: 5
 ---
 
 
-Kubernetes simplifies the running of containerized application by automating many things like scaling, self-healing, high-availability, service discovery, load balancing, updates and rollbacks. This is enabled by a unified API which includes the Controller Manager, Scheduler, etcd, Kubelet and  Kube-proxy that allows for applications to be defined declaratively in yaml and do things like configuration management, handle persistent storage and Role Based Access Control.
+Kubernetes simplifies the running of containerized application by automating many things: 
+
+- scaling
+- self-healing
+- high-availability
+- service discovery
+- load balancing
+- updates and rollbacks  
+
+This is enabled by a unified API which includes the Controller Manager, Scheduler, etcd, Kubelet and  Kube-proxy that allows for applications to be defined declaratively in yaml and do things like configuration management, handle persistent storage and Role Based Access Control.
 
  When the API is extended, with CRDs (Custom Resource Definitions), Admissions Controllers and with Controllers/Operators, Kubernetes then goes beyond its original purpose as an 'orchestrator of containers':
 
