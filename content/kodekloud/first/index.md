@@ -8,12 +8,16 @@ weight: 5
 
 Kubernetes simplifies the running of containerized application by automating many things: 
 
-- scaling
-- self-healing
-- high-availability
-- service discovery
-- load balancing
-- updates and rollbacks  
+| Feature               | Description                                 |
+|-----------------------|---------------------------------------------|
+| Scaling               | Automatically adjusts the number of pods.   |
+| Self-healing          | Automatically restarts failed containers.   |
+| High-availability     | Distributes the load across multiple nodes. |
+| Service Discovery     | Automatically assigns IP addresses and DNS. |
+| Load Balancing        | Distributes network traffic across services.|
+| Updates and Rollbacks | Manages updates and rollbacks automatically.|
+
+
 
 This is enabled by a unified API which includes the Controller Manager, Scheduler, etcd, Kubelet and  Kube-proxy that allows for applications to be defined declaratively in yaml and do things like configuration management, handle persistent storage and Role Based Access Control.
 
