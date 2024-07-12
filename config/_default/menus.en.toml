@@ -13,23 +13,29 @@
 [[main]]
   name = "Home"
   pageRef = "/"
-  weight = 1
+  weight = 5
 
-[[ main]]
+[[main]]
    name = "K8s Cloud Resume Challenge"
    url = "https://journeyman33.github.io/k8s-resume-blog/"
-   # weight =2
+   weight = 30
  
 [[main]]
    name = "What is k8s Resume Challenge?"
    parent = "K8s Cloud Resume Challenge"
-   pagRef = "posts/one"   
+   pageRef = "posts/one"   
+   
 
-
-[[ main]]
+[[main]]
    name = "Kodekloud Engineer"
    pageRef = "kodekloud"
-   weight =40
+   weight = 15
+
+[[main]]
+   name = "What is Kodekloud Engineer?"
+   parent = "Kodekloud Engineer"
+   pageRef = ""
+   
 
 
 
@@ -73,7 +79,7 @@
 #[[main]]
 #  name = "Tags"
 #  pageRef = "tags"
-# weight = 30
+#  weight = 30
 
 
 # -- Footer Menu --
