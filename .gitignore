@@ -15,3 +15,5 @@ public
 # Ignore Firebase cache files
 .firebase/hosting.cHVibGlj.cache
 
+# Ignore Firebase debug logs
+firebase-debug.log
